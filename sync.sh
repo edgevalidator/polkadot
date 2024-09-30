@@ -11,10 +11,10 @@ log_message() {
 }
 
 # Get current block number from Polkadot node
-CURRENT_BLOCK=$(curl -s http://localhost:9933 -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"system_syncState","params":[],"id":1}' | jq .result.currentBlock)
+CURRENT_BLOCK=$(curl -s http://localhost:9944 -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"system_syncState","params":[],"id":1}' | jq .result.currentBlock)
 
 # Get highest block from Polkadot node
-HIGHEST_BLOCK=$(curl -s http://localhost:9933 -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"system_syncState","params":[],"id":1}' | jq .result.highestBlock)
+HIGHEST_BLOCK=$(curl -s http://localhost:9944 -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"system_syncState","params":[],"id":1}' | jq .result.highestBlock)
 
 # Calculate the difference between the highest and current blocks
 BLOCK_LAG=$(($HIGHEST_BLOCK - $CURRENT_BLOCK))
