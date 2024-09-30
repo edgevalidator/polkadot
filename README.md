@@ -19,3 +19,12 @@ PasswordAuthentication no
 
 # Restart the SSH service to apply changes
 systemctl restart sshd.service
+
+3. Configure the Firewall
+Polkadot requires specific ports to be opened in the firewall, particularly the P2P port.
+
+Port	Description
+30333	P2P Port
+9933	HTTP RPC
+9944	WebSocket RPC
+9615	Prometheus Port
