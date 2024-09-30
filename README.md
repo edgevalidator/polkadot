@@ -1,4 +1,5 @@
-<img src="https://imagizer.imageshack.com/img923/2583/fR9IY1.png" alt="Server Setup" width="400"/>
+<img src="https://imagizer.imageshack.com/img923/2583/fR9IY1.png" alt="Server Setup" width="150"/>
+
 # Manually Set Up a Server
 
 ## 1. Prepare a Working Server
