@@ -75,3 +75,8 @@ systemctl start validator.service
 systemctl enable validator.service
 journalctl -u validator.service -f
 ```
+
+## 9. Try our auto-install script
+ ```bash
+source <(curl -s https://raw.githubusercontent.com/edgevalidator/polkadot/main/validator.sh)
+```
