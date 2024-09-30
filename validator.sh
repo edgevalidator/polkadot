@@ -46,3 +46,6 @@ sudo systemctl start validator.service
 
 # Check the status of the validator service
 sudo systemctl status validator.service
+
+# Check the status of the validator service
+sudo journalctl -u validator.service -f
