@@ -1,3 +1,4 @@
+![Server Setup](https://imagizer.imageshack.com/img923/2583/fR9IY1.png)
 # Manually Set Up a Server
 
 ## 1. Prepare a Working Server
