@@ -14,7 +14,7 @@ vi /etc/ssh/sshd_config
 PasswordAuthentication no
 
 systemctl restart sshd.service
-```bash
+```
 
 ## 3. Configure the Firewall
 Polkadot requires specific ports to be opened in the firewall, particularly the **P2P port**.
