@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-VALIDATOR_NAME="YourValidatorName"
+VALIDATOR_NAME="YourValidatorname"
 LOG_FILE="/var/log/polkadot-validator-monitor.log"
 THRESHOLD_BLOCKS=10 # Maximum allowed lag in blocks before taking action
 
